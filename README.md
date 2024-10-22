@@ -1,3 +1,3 @@
-# ConSurv
+# Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning
 
 ...
