@@ -199,29 +199,3 @@ Bug reports, improvements, and metric extensions are always welcome.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
-
-## ❈ Acknowledgments
-
-* Inspired by research in **contrastive survival analysis** and **calibration-aware learning**.
-* Metric implementations follow *Haider et al. (2020)* and *Kvamme & Borgan (2019)*.
-* Developed at **Actionable Intelligence Lab**.
-
-<div align="right">
-
-[![][back-to-top]](#top)
-
-</div>
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-```
-
----
-
-✅ **Changes made:**
-- Removed the broken logo at the top.  
-- Replaced the GitHub auto license badge with a **fixed MIT badge** (always displays correctly).  
-- Verified Markdown rendering works flawlessly on GitHub.  
-
-Would you like me to also generate a **matching `LICENSE` file (MIT text)** to ensure the badge links properly?
-```
