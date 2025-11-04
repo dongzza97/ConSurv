@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-top-language">
   <img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-language-count">
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python Version">
+  <img src="https://img.shields.io/badge/PyTorch-1.13.1-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch Version">
 </p>
 
 ---
