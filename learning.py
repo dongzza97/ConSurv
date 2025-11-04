@@ -191,8 +191,10 @@ class Model(object):
 
                     X_val_expand = torch.unsqueeze(X_val,-1).expand(X_val.shape[0], X_val.shape[1], self.num_category).transpose(1,2).reshape(-1,X_val.shape[1]).to(self.args.device)
                     out = self.survival_network(X_val_expand, 'valid').reshape(X_val.shape[0], self.num_category).cpu()
-                    H = out.cumsum(1)
-                    S = torch.exp(-H)
+                    
+                    log_out = torch.log(1. - out + 1e-7)
+                    H = log_out.cumsum(1)
+                    S = torch.exp(H)
                     W = 1-S
                 
                 tr_y_structured =  [(np.asarray(E_tr)[i], np.asarray(T_tr)[i]) for i in range(len(E_tr))]
