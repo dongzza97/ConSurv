@@ -46,8 +46,6 @@
 ## ◈ Overview
 
 **ConSurv** is a PyTorch-based framework for **contrastive representation learning in survival analysis**.  
-It combines an *InfoNCE-style contrastive loss* for temporal representation learning with a *discrete-time hazard network* that estimates survival probabilities.  
-The framework provides comprehensive evaluation using **time-dependent CI**, **Brier Score**, **Integrated Brier Score (IBS)**, **Distributional Calibration (DDC)**, and **Dynamic Calibration (D-CAL)**.
 
 ---
 
