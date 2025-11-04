@@ -1,7 +1,4 @@
 
----
-
-````markdown
 # CONSURV.GIT
 
 <em>A contrastive survival representation learning framework for time-to-event prediction.</em>
