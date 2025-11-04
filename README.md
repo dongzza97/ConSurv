@@ -74,7 +74,6 @@ ConSurv.git/
 | Package                  | Version        | Purpose                             |
 | ------------------------ | -------------- | ----------------------------------- |
 | **PyTorch**              | 2.0.1          | Core deep learning framework        |
-| **torchvision**          | 0.15.2         | Neural module utilities (optional)  |
 | **scikit-learn**         | 1.3.2          | Data preprocessing and scaling      |
 | **scikit-survival**      | 0.22.2         | Survival metrics (CI, Brier)        |
 | **pycox**                | 0.2.3          | Deep survival baselines (optional)  |
