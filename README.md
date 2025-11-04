@@ -154,7 +154,7 @@ Performance metrics and CSV results are saved in the current working directory.
 
 * [x] Base ConSurv contrastive + hazard framework
 * [x] Time-dependent calibration metrics (DDC, DCAL)
-* [ ] Integrate DeepHit / DeepSurv baselines
+* [ ] Integrate baselines
 * [ ] Temporal Transformer backbone
 * [ ] Multi-modal expansion for EHR + imaging data
 
