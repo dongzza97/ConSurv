@@ -75,8 +75,8 @@ ConSurv.git/
 ├── utils.py
 └── requirements.txt
 
-Perfect 👍 Here’s your **final, fully integrated English-only `README.md`**, including the verified version information section for reproducibility.
-This file is complete and can be pasted directly into your repository root.
+
+Got it ✅ Here’s the updated **final `README.md`** version — same as before but now the **License section** includes an MIT badge image instead of plain text.
 
 ---
 
@@ -295,25 +295,6 @@ Bug reports, improvements, and metric extensions are always welcome.
 
 ## ⟶ License
 
-Licensed under the [MIT License](./LICENSE).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
-
-## ❈ Acknowledgments
-
-* Inspired by research in **contrastive survival analysis** and **calibration-aware learning**.
-* Metric implementations follow *Haider et al. (2020)* and *Kvamme & Borgan (2019)*.
-* Developed at **Actionable Intelligence Lab**.
-
-<div align="right">
-
-[![][back-to-top]](#top)
-
-</div>
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-```
-
---
-
