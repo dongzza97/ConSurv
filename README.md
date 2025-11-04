@@ -192,10 +192,3 @@ Performance metrics and CSV results are saved in the current working directory.
 
 Bug reports, improvements, and metric extensions are always welcome.
 
----
-
-## ⟶ License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
