@@ -1,22 +1,19 @@
 <div id="top">
 
-<!-- HEADER STYLE: MODERN -->
 <div align="left" style="position: relative; width: 100%; height: 100%; ">
 
-<img src="LLM" width="35%" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
+<img src="assets/logo.png" width="35%" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
 
 # CONSURV.GIT
 
-<em><em>
+<em>A contrastive survival representation learning framework for time-to-event prediction.</em>
 
-<!-- BADGES -->
-<img src="https://img.shields.io/github/license/dongzza97/ConSurv.git?style=flat&logo=opensourceinitiative&logoColor=white&color=6D0CDC" alt="license">
-<img src="https://img.shields.io/github/last-commit/dongzza97/ConSurv.git?style=flat&logo=git&logoColor=white&color=6D0CDC" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv.git?style=flat&color=6D0CDC" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv.git?style=flat&color=6D0CDC" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/dongzza97/ConSurv?style=flat&logo=opensourceinitiative&logoColor=white&color=6D0CDC" alt="license">
+<img src="https://img.shields.io/github/last-commit/dongzza97/ConSurv?style=flat&logo=git&logoColor=white&color=6D0CDC" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-language-count">
 
-<em>Built with the tools and technologies:</em>
-
+<em>Built with:</em>  
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 
 </div>
@@ -26,84 +23,156 @@
 ---
 
 ## ⟡ Table of Contents
-
 <details>
-<summary>Table of Contents</summary>
+<summary>Click to expand</summary>
 
-- [⟡ Table of Contents](#-table-of-contents)
-- [◈ Overview](#-overview)
-- [⟢ Features](#-features)
-- [◇ Project Structure](#-project-structure)
-    - [◊ Project Index](#-project-index)
-- [⟠ Getting Started](#-getting-started)
-    - [⟁ Prerequisites](#-prerequisites)
-    - [⟒ Installation](#-installation)
-    - [⟓ Usage](#-usage)
-    - [⌆ Testing](#-testing)
-- [⟲ Roadmap](#-roadmap)
-- [⏣ Contributing](#-contributing)
-- [⟶ License](#-license)
-- [❈ Acknowledgments](#-acknowledgments)
-
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+  - [Project Index](#-project-index)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation](#-installation)
+  - [Usage](#-usage)
+  - [Testing](#-testing)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 </details>
 
 ---
 
 ## ◈ Overview
 
-
+**ConSurv** is a PyTorch-based framework for **contrastive representation learning in survival analysis**.  
+It combines an *InfoNCE-style contrastive loss* for temporal representation learning with a *discrete-time hazard network* that estimates survival probabilities.  
+The framework provides comprehensive evaluation using **time-dependent CI**, **Brier Score**, **Integrated Brier Score (IBS)**, **Distributional Calibration (DDC)**, and **Dynamic Calibration (D-CAL)**.
 
 ---
 
 ## ⟢ Features
 
-<code>❯ REPLACE-ME</code>
+- **Contrastive representation learning** using temporal weighting and adaptive margin thresholds.  
+- **Hazard-based survival modeling** that outputs discrete hazards \( h_t \) and survival curves \( S(t)=\exp(-\sum_{\tau \le t} h_\tau) \).  
+- **Automatic censoring handling** with generated masks for censored/uncensored samples.  
+- **Evaluation metrics** implemented from scratch: CI, BS, IBS, DDC, DCAL.  
+- **Configurable architecture**: encoder depth, hidden dimension, dropout, and temperature.  
+- **Multi-dataset support**: METABRIC, SEER, SUPPORT, GBSG, and more.
 
 ---
 
 ## ◇ Project Structure
 
-```sh
-└── ConSurv.git/
-    ├── README.md
-    ├── dataset.py
-    ├── learning.py
-    ├── learning_hrpark.py
-    ├── metric.py
-    ├── model.py
-    ├── requirements.txt
-    ├── run.py
-    └── utils.py
-```
+```bash
+ConSurv.git/
+├── README.md
+├── dataset.py
+├── learning.py
+├── metric.py
+├── model.py
+├── run.py
+├── utils.py
+└── requirements.txt
+
+Perfect 👍 Here’s your **final, fully integrated English-only `README.md`**, including the verified version information section for reproducibility.
+This file is complete and can be pasted directly into your repository root.
+
+---
+
+````markdown
+<div id="top">
+
+<div align="left" style="position: relative; width: 100%; height: 100%; ">
+
+<img src="assets/logo.png" width="35%" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
+
+# CONSURV.GIT
+
+<em>A contrastive survival representation learning framework for time-to-event prediction.</em>
+
+<img src="https://img.shields.io/github/license/dongzza97/ConSurv?style=flat&logo=opensourceinitiative&logoColor=white&color=6D0CDC" alt="license">
+<img src="https://img.shields.io/github/last-commit/dongzza97/ConSurv?style=flat&logo=git&logoColor=white&color=6D0CDC" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-language-count">
+
+<em>Built with:</em>  
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+
+</div>
+</div>
+<br clear="right">
+
+---
+
+## ⟡ Table of Contents
+<details>
+<summary>Click to expand</summary>
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+  - [Project Index](#-project-index)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Installation](#-installation)
+  - [Usage](#-usage)
+  - [Testing](#-testing)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+</details>
+
+---
+
+## ◈ Overview
+
+**ConSurv** is a PyTorch-based framework for **contrastive representation learning in survival analysis**.  
+It combines an *InfoNCE-style contrastive loss* for temporal representation learning with a *discrete-time hazard network* that estimates survival probabilities.  
+The framework provides comprehensive evaluation using **time-dependent CI**, **Brier Score**, **Integrated Brier Score (IBS)**, **Distributional Calibration (DDC)**, and **Dynamic Calibration (D-CAL)**.
+
+---
+
+## ⟢ Features
+
+- **Contrastive representation learning** using temporal weighting and adaptive margin thresholds.  
+- **Hazard-based survival modeling** that outputs discrete hazards \( h_t \) and survival curves \( S(t)=\exp(-\sum_{\tau \le t} h_\tau) \).  
+- **Automatic censoring handling** with generated masks for censored/uncensored samples.  
+- **Evaluation metrics** implemented from scratch: CI, BS, IBS, DDC, DCAL.  
+- **Configurable architecture**: encoder depth, hidden dimension, dropout, and temperature.  
+- **Multi-dataset support**: METABRIC, SEER, SUPPORT, GBSG, and more.
+
+---
+
+## ◇ Project Structure
+
+```bash
+ConSurv.git/
+├── README.md
+├── dataset.py
+├── learning.py
+├── metric.py
+├── model.py
+├── run.py
+├── utils.py
+└── requirements.txt
+````
 
 ### ◊ Project Index
 
 <details open>
-	<summary><b><code>CONSURV.GIT/</code></b></summary>
-	<!-- __root__ Submodule -->
-	<details>
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ __root__</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/learning_hrpark.py'>learning_hrpark.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/model.py'>model.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
+<summary><b><code>CONSURV.GIT</code></b></summary>
+
+| File            | Description                                                                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **dataset.py**  | Loads CSV datasets, performs normalization and train/valid/test split; builds censoring/uncensoring masks and computes adaptive thresholds for contrastive weighting. |
+| **learning.py** | Core training logic combining InfoNCE contrastive learning with hazard-based survival loss; evaluates CI, BS, IBS, DDC, and D-CAL during training and testing.        |
+| **metric.py**   | Implements metrics: Integrated Brier Score (IBS), Concordance Index (CI), Distributional Calibration (DDC), and Dynamic Calibration (DCAL).                           |
+| **model.py**    | Defines encoder, projection head, and hazard prediction networks built with fully-connected layers and temporal concatenation.                                        |
+| **run.py**      | Entry point: argument parser, dataset preparation, dataloaders, model instantiation, optimizers, and train/test execution.                                            |
+| **utils.py**    | Saves experiment results to CSV files: performance summary, time-dependent CI, and Brier scores.                                                                      |
+
 </details>
 
 ---
@@ -112,104 +181,129 @@
 
 ### ⟁ Prerequisites
 
-This project requires the following dependencies:
+* **Python ≥ 3.8**
+* **CUDA 11.7+ (optional for GPU)**
 
-- **Programming Language:** Python
+**Verified compatible versions:**
+
+| Package                  | Version        | Purpose                             |
+| ------------------------ | -------------- | ----------------------------------- |
+| **PyTorch**              | 2.0.1          | Core deep learning framework        |
+| **torchvision**          | 0.15.2         | Neural module utilities (optional)  |
+| **scikit-learn**         | 1.3.2          | Data preprocessing and scaling      |
+| **scikit-survival**      | 0.22.2         | Survival metrics (CI, Brier)        |
+| **NumPy**                | 1.24.3         | Array operations                    |
+| **Pandas**               | 2.0.3          | Tabular data handling               |
+| **SciPy**                | 1.10.1         | Mathematical utilities              |
+| **tqdm**                 | 4.66.1         | Training progress display           |
+| **lifelines**            | 0.27.8         | Baseline survival models (optional) |
+| **pycox**                | 0.2.3          | Deep survival baselines (optional)  |
+| **torchtuples**          | 0.2.2          | Utility for survival model wrappers |
+| **Matplotlib / Seaborn** | 3.7.3 / 0.13.2 | Visualization of metrics            |
+| **wandb**                | 0.16.6         | Experiment tracking (optional)      |
+
+Other installed packages (`xgboost`, `statsmodels`, `umap-learn`, etc.) are not required for the main pipeline.
+
+---
 
 ### ⟒ Installation
 
-Build ConSurv.git from the source and intsall dependencies:
+```bash
+git clone https://github.com/dongzza97/ConSurv.git
+cd ConSurv.git
+pip install -r requirements.txt
+```
 
-1. **Clone the repository:**
-
-    ```sh
-    ❯ git clone https://github.com/dongzza97/ConSurv.git
-    ```
-
-2. **Navigate to the project directory:**
-
-    ```sh
-    ❯ cd ConSurv.git
-    ```
-
-3. **Install the dependencies:**
-
-echo 'INSERT-INSTALL-COMMAND-HERE'
+---
 
 ### ⟓ Usage
 
-Run the project with:
+#### 1. Dataset format
 
-echo 'INSERT-RUN-COMMAND-HERE'
+CSV file structure (`datasets/{DATA_NAME}.csv`):
+
+| feature_1 | feature_2 | ... | time | label |
+| --------: | --------: | --- | ---: | ----: |
+|      0.12 |       5.6 | ... |  128 |     1 |
+|      7.80 |       0.2 | ... |   64 |     0 |
+
+* **label**: `1 = event`, `0 = censored`
+* **time**: discrete time step (divided by 30 days for some datasets)
+
+#### 2. Train & Validate
+
+```bash
+python run.py \
+  --data ./datasets \
+  --data-name METABRIC \
+  --epochs 2000 \
+  --batch-size 32 \
+  --hidden-dim 16 \
+  --depth 4 \
+  --drop-out 0.2 \
+  --version out \
+  --sigma 0.75 \
+  --quantile 10
+```
+
+| Argument      | Description                                                       |
+| ------------- | ----------------------------------------------------------------- |
+| `--data-name` | Dataset name (without `.csv`)                                     |
+| `--version`   | Loss variant: `prod` (probabilistic) or `out` (contrastive ratio) |
+| `--sigma`     | Kernel bandwidth for temporal similarity                          |
+| `--quantile`  | Percentile threshold for margin selection                         |
+| `--epochs`    | Number of training epochs                                         |
+
+#### 3. Output & Checkpoints
+
+After training completes:
+
+* Model checkpoint → `./{DATA_NAME}/NLL_SNCE_{SEED}.pt`
+* Global metrics → `{DATA_NAME}_NLL_NCE_performance.csv`
+* Time-dependent CI → `{DATA_NAME}_NLL_NCE_TD_Cindex.csv`
+* Time-dependent BS → `{DATA_NAME}_NLL_NCE_TD_Brier.csv`
+
+---
 
 ### ⌆ Testing
 
-Consurv.git uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
+`run.py` automatically executes the test phase after training.
+Performance metrics and CSV results are saved in the current working directory.
 
 ---
 
 ## ⟲ Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+* [x] Base ConSurv contrastive + hazard framework
+* [x] Time-dependent calibration metrics (DDC, DCAL)
+* [ ] Integrate DeepHit / DeepSurv baselines
+* [ ] Temporal Transformer backbone
+* [ ] Multi-modal expansion for EHR + imaging data
 
 ---
 
 ## ⏣ Contributing
 
-- **💬 [Join the Discussions](https://github.com/dongzza97/ConSurv.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/dongzza97/ConSurv.git/issues)**: Submit bugs found or log feature requests for the `ConSurv.git` project.
-- **💡 [Submit Pull Requests](https://github.com/dongzza97/ConSurv.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+1. Fork the repository
+2. Create a feature branch
+3. Commit with a clear message
+4. Push and open a pull request
 
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone https://github.com/dongzza97/ConSurv.git
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/dongzza97/ConSurv.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=dongzza97/ConSurv.git">
-   </a>
-</p>
-</details>
+Bug reports, improvements, and metric extensions are always welcome.
 
 ---
 
 ## ⟶ License
 
-Consurv.git is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+Licensed under the [MIT License](./LICENSE).
 
 ---
 
 ## ❈ Acknowledgments
 
-- Credit `contributors`, `inspiration`, `references`, etc.
+* Inspired by research in **contrastive survival analysis** and **calibration-aware learning**.
+* Metric implementations follow *Haider et al. (2020)* and *Kvamme & Borgan (2019)*.
+* Developed at **Actionable Intelligence Lab**.
 
 <div align="right">
 
@@ -217,8 +311,9 @@ Consurv.git is protected under the [LICENSE](https://choosealicense.com/licenses
 
 </div>
 
-
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 
+```
 
----
+--
+
