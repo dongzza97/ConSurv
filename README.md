@@ -1,5 +1,6 @@
 
-# CONSURV.GIT
+# Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning
+
 
 <em>A contrastive survival representation learning framework for time-to-event prediction.</em>
 
