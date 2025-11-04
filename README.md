@@ -10,6 +10,19 @@
   <img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv?style=flat&color=6D0CDC" alt="repo-language-count">
   <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python Version">
   <img src="https://img.shields.io/badge/PyTorch-1.13.1-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch Version">
+  <img src="https://img.shields.io/badge/torchvision-0.15.2-FF6F00?style=flat&logo=pytorch&logoColor=white" alt="torchvision">
+  <img src="https://img.shields.io/badge/scikit--learn-1.3.2-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/scikit--survival-0.22.2-007ACC?style=flat" alt="scikit-survival">
+  <img src="https://img.shields.io/badge/NumPy-1.24.3-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Pandas-2.0.3-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/SciPy-1.10.1-8CAAE6?style=flat" alt="SciPy">
+  <img src="https://img.shields.io/badge/tqdm-4.66.1-4AB197?style=flat" alt="tqdm">
+  <img src="https://img.shields.io/badge/lifelines-0.27.8-6f42c1?style=flat" alt="lifelines">
+  <img src="https://img.shields.io/badge/pycox-0.2.3-2b9af3?style=flat" alt="pycox">
+  <img src="https://img.shields.io/badge/torchtuples-0.2.2-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="torchtuples">
+  <img src="https://img.shields.io/badge/Matplotlib-3.7.3-F5760A?style=flat&logo=matplotlib&logoColor=white" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Seaborn-0.13.2-2b6cb0?style=flat" alt="Seaborn">
+  <img src="https://img.shields.io/badge/wandb-0.16.6-FF5C8B?style=flat&logo=wandb&logoColor=white" alt="wandb">
 </p>
 
 ---
@@ -37,9 +50,8 @@
 
 ## ◈ Overview
 
-**ConSurv** is a PyTorch-based framework for **contrastive representation learning in survival analysis**.  
-It combines an *InfoNCE-style contrastive loss* for temporal representation learning with a *discrete-time hazard network* that estimates survival probabilities.  
-The framework provides comprehensive evaluation using **time-dependent CI**, **Brier Score**, **Integrated Brier Score (IBS)**, **Distributional Calibration (DDC)**, and **Dynamic Calibration (D-CAL)**.
+> **Overview:**
+> ConSurv introduces a novel contrastive learning framework for survival analysis that enhances discrimination while maintaining calibration. By weighting contrastive pairs according to survival outcome similarity, ConSurv achieves state-of-the-art performance across multiple clinical datasets without directly manipulating model outputs.
 
 ---
 
@@ -55,7 +67,7 @@ ConSurv.git/
 ├── run.py
 ├── utils.py
 └── requirements.txt
-````
+```
 
 ## ⟠ Getting Started
 
@@ -73,7 +85,7 @@ ConSurv.git/
 | **scikit-learn**         | 1.3.2          | Data preprocessing and scaling      |
 | **scikit-survival**      | 0.22.2         | Survival metrics (CI, Brier)        |
 | **NumPy**                | 1.24.3         | Array operations                    |
-| **Pandas**               | 2.0.3          | Tabular data handling               |
+| **Pandas**               | 2.0.3         | Tabular data handling               |
 | **SciPy**                | 1.10.1         | Mathematical utilities              |
 | **tqdm**                 | 4.66.1         | Training progress display           |
 | **lifelines**            | 0.27.8         | Baseline survival models (optional) |
@@ -169,5 +181,3 @@ Performance metrics and CSV results are saved in the current working directory.
 4. Push and open a pull request
 
 Bug reports, improvements, and metric extensions are always welcome.
-
-
