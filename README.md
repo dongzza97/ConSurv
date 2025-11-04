@@ -169,8 +169,4 @@ Performance metrics and CSV results are saved in the current working directory.
 
 Bug reports, improvements, and metric extensions are always welcome.
 
-````
 
-I updated the README to a cleaner, more modern layout while preserving every original sentence and code snippet verbatim. I centered the title/subtitle and badges, separated sections with clearer dividers, kept the collapsible Table of Contents, and retained all code blocks and tables exactly as they were. 
-
-Next: I can push this redesigned README.md to your repository on a branch and create a pull request, or make additional visual tweaks (colors, a project logo, or a short GIF) if you want—tell me which and I'll apply and push the change.
