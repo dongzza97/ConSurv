@@ -77,15 +77,9 @@ ConSurv.git/
 | **torchvision**          | 0.15.2         | Neural module utilities (optional)  |
 | **scikit-learn**         | 1.3.2          | Data preprocessing and scaling      |
 | **scikit-survival**      | 0.22.2         | Survival metrics (CI, Brier)        |
+| **pycox**                | 0.2.3          | Deep survival baselines (optional)  |
 | **NumPy**                | 1.24.3         | Array operations                    |
 | **Pandas**               | 2.0.3          | Tabular data handling               |
-| **SciPy**                | 1.10.1         | Mathematical utilities              |
-| **tqdm**                 | 4.66.1         | Training progress display           |
-| **lifelines**            | 0.27.8         | Baseline survival models (optional) |
-| **pycox**                | 0.2.3          | Deep survival baselines (optional)  |
-| **torchtuples**          | 0.2.2          | Utility for survival model wrappers |
-| **Matplotlib / Seaborn** | 3.7.3 / 0.13.2 | Visualization of metrics            |
-| **wandb**                | 0.16.6         | Experiment tracking (optional)      |
 
 Other installed packages (`xgboost`, `statsmodels`, `umap-learn`, etc.) are not required for the main pipeline.
 
