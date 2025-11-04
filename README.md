@@ -66,19 +66,6 @@ ConSurv.git/
 └── requirements.txt
 ````
 
-### ◊ Project Index
-
-| File            | Description                                                                                                                                                           |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **dataset.py**  | Loads CSV datasets, performs normalization and train/valid/test split; builds censoring/uncensoring masks and computes adaptive thresholds for contrastive weighting. |
-| **learning.py** | Core training logic combining InfoNCE contrastive learning with hazard-based survival loss; evaluates CI, BS, IBS, DDC, and D-CAL during training and testing.        |
-| **metric.py**   | Implements metrics: Integrated Brier Score (IBS), Concordance Index (CI), Distributional Calibration (DDC), and Dynamic Calibration (DCAL).                           |
-| **model.py**    | Defines encoder, projection head, and hazard prediction networks built with fully-connected layers and temporal concatenation.                                        |
-| **run.py**      | Entry point: argument parser, dataset preparation, dataloaders, model instantiation, optimizers, and train/test execution.                                            |
-| **utils.py**    | Saves experiment results to CSV files: performance summary, time-dependent CI, and Brier scores.                                                                      |
-
----
-
 ## ⟠ Getting Started
 
 ### ⟁ Prerequisites
