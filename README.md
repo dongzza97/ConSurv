@@ -1,73 +1,72 @@
 <div id="top">
 
-<!-- HEADER STYLE: CLASSIC -->
-<div align="center">
+<!-- HEADER STYLE: MODERN -->
+<div align="left" style="position: relative; width: 100%; height: 100%; ">
 
-<img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
+<img src="LLM" width="35%" style="position: absolute; top: 0; right: 0;" alt="Project Logo"/>
 
 # CONSURV.GIT
 
-<em></em>
+<em><em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/dongzza97/ConSurv.git?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-<img src="https://img.shields.io/github/last-commit/dongzza97/ConSurv.git?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv.git?style=default&color=0080ff" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv.git?style=default&color=0080ff" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/dongzza97/ConSurv.git?style=flat&logo=opensourceinitiative&logoColor=white&color=6D0CDC" alt="license">
+<img src="https://img.shields.io/github/last-commit/dongzza97/ConSurv.git?style=flat&logo=git&logoColor=white&color=6D0CDC" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/dongzza97/ConSurv.git?style=flat&color=6D0CDC" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/dongzza97/ConSurv.git?style=flat&color=6D0CDC" alt="repo-language-count">
 
-<!-- default option, no dependency badges. -->
+<em>Built with the tools and technologies:</em>
 
-
-<!-- default option, no dependency badges. -->
+<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
 
 </div>
-<br>
+</div>
+<br clear="right">
 
 ---
 
-## Table of Contents
+## ⟡ Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-    - [Project Index](#project-index)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+<details>
+<summary>Table of Contents</summary>
+
+- [⟡ Table of Contents](#-table-of-contents)
+- [◈ Overview](#-overview)
+- [⟢ Features](#-features)
+- [◇ Project Structure](#-project-structure)
+    - [◊ Project Index](#-project-index)
+- [⟠ Getting Started](#-getting-started)
+    - [⟁ Prerequisites](#-prerequisites)
+    - [⟒ Installation](#-installation)
+    - [⟓ Usage](#-usage)
+    - [⌆ Testing](#-testing)
+- [⟲ Roadmap](#-roadmap)
+- [⏣ Contributing](#-contributing)
+- [⟶ License](#-license)
+- [❈ Acknowledgments](#-acknowledgments)
+
+</details>
 
 ---
 
-## Overview
+## ◈ Overview
 
 
 
 ---
 
-## Features
+## ⟢ Features
 
 <code>❯ REPLACE-ME</code>
 
 ---
 
-## Project Structure
+## ◇ Project Structure
 
 ```sh
 └── ConSurv.git/
     ├── README.md
     ├── dataset.py
-    ├── datasets
-    │   ├── FLCHAIN.csv
-    │   ├── GBSG.csv
-    │   ├── METABRIC.csv
-    │   ├── NWTCO.csv
-    │   └── SUPPORT.csv
     ├── learning.py
     ├── learning_hrpark.py
     ├── metric.py
@@ -77,7 +76,7 @@
     └── utils.py
 ```
 
-### Project Index
+### ◊ Project Index
 
 <details open>
 	<summary><b><code>CONSURV.GIT/</code></b></summary>
@@ -95,31 +94,7 @@
 				</tr>
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/metric.py'>metric.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/learning_hrpark.py'>learning_hrpark.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/requirements.txt'>requirements.txt</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/run.py'>run.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/utils.py'>utils.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/dataset.py'>dataset.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/dongzza97/ConSurv.git/blob/master/learning.py'>learning.py</a></b></td>
 					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
@@ -133,16 +108,15 @@
 
 ---
 
-## Getting Started
+## ⟠ Getting Started
 
-### Prerequisites
+### ⟁ Prerequisites
 
 This project requires the following dependencies:
 
 - **Programming Language:** Python
-- **Package Manager:** Pip
 
-### Installation
+### ⟒ Installation
 
 Build ConSurv.git from the source and intsall dependencies:
 
@@ -160,39 +134,23 @@ Build ConSurv.git from the source and intsall dependencies:
 
 3. **Install the dependencies:**
 
-<!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![pip][pip-shield]][pip-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [pip-shield]: https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white -->
-	<!-- [pip-link]: https://pypi.org/project/pip/ -->
+echo 'INSERT-INSTALL-COMMAND-HERE'
 
-	**Using [pip](https://pypi.org/project/pip/):**
-
-	```sh
-	❯ pip install -r requirements.txt
-	```
-
-### Usage
+### ⟓ Usage
 
 Run the project with:
 
-**Using [pip](https://pypi.org/project/pip/):**
-```sh
-python {entrypoint}
-```
+echo 'INSERT-RUN-COMMAND-HERE'
 
-### Testing
+### ⌆ Testing
 
 Consurv.git uses the {__test_framework__} test framework. Run the test suite with:
 
-**Using [pip](https://pypi.org/project/pip/):**
-```sh
-pytest
-```
+echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
-## Roadmap
+## ⟲ Roadmap
 
 - [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
@@ -200,7 +158,7 @@ pytest
 
 ---
 
-## Contributing
+## ⏣ Contributing
 
 - **💬 [Join the Discussions](https://github.com/dongzza97/ConSurv.git/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/dongzza97/ConSurv.git/issues)**: Submit bugs found or log feature requests for the `ConSurv.git` project.
@@ -243,13 +201,13 @@ pytest
 
 ---
 
-## License
+## ⟶ License
 
 Consurv.git is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-## Acknowledgments
+## ❈ Acknowledgments
 
 - Credit `contributors`, `inspiration`, `references`, etc.
 
