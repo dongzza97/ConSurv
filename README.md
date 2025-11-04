@@ -11,9 +11,10 @@
   <img src="https://img.shields.io/badge/PyTorch-1.13.1-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch Version">
   <img src="https://img.shields.io/badge/scikit--learn-1.3.2-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="scikit-learn">
   <img src="https://img.shields.io/badge/scikit--survival-0.22.2-007ACC?style=flat" alt="scikit-survival">
+  <img src="https://img.shields.io/badge/pycox-0.2.3-2b9af3?style=flat" alt="pycox">
   <img src="https://img.shields.io/badge/NumPy-1.24.3-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy">
   <img src="https://img.shields.io/badge/Pandas-2.0.3-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/pycox-0.2.3-2b9af3?style=flat" alt="pycox">
+
 </p>
 
 ---
