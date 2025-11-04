@@ -1,4 +1,3 @@
-````markdown name=README.md url=https://github.com/dongzza97/ConSurv/blob/main/README.md
 <p align="center">
   <h1 align="center">Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning</h1>
   <em align="center">A contrastive survival representation learning framework for time-to-event prediction.</em>
