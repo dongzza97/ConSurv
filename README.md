@@ -41,17 +41,6 @@ The framework provides comprehensive evaluation using **time-dependent CI**, **B
 
 ---
 
-## ⟢ Features
-
-- **Contrastive representation learning** with temporal weighting and adaptive margin thresholds.  
-- **Hazard-based survival modeling** that outputs discrete hazards \( h_t \) and survival curves \( S(t)=\exp(-\sum_{\tau \le t} h_\tau) \).  
-- **Automatic censoring handling** with generated masks for censored/uncensored samples.  
-- **Evaluation metrics** implemented from scratch: CI, BS, IBS, DDC, DCAL.  
-- **Configurable architecture**: encoder depth, hidden dimension, dropout, and temperature.  
-- **Multi-dataset support**: METABRIC, SEER, SUPPORT, GBSG, and more.
-
----
-
 ## ◇ Project Structure
 
 ```bash
