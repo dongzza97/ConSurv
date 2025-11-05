@@ -122,14 +122,6 @@ python run.py \
   --quantile 10
 ```
 
-| Argument      | Description                                                       |
-| ------------- | ----------------------------------------------------------------- |
-| `--data-name` | Dataset name (without `.csv`)                                     |
-| `--version`   | Loss variant: `prod` (probabilistic) or `out` (contrastive ratio) |
-| `--sigma`     | Kernel bandwidth for temporal similarity                          |
-| `--quantile`  | Percentile threshold for margin selection                         |
-| `--epochs`    | Number of training epochs                                         |
-
 #### 3. Output & Checkpoints
 
 After training completes:
